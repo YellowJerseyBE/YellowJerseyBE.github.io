@@ -134,7 +134,7 @@
                 background: #2672E6;
                 border: 1px solid #FFF;
                 color: #fff;
-                transition: background 1s ease 0s;
+                transition: background-color 1s ease 0s;
                 font-size: 100%;
                 padding: 0 2px
             }
@@ -190,7 +190,7 @@
             }
     
             img#background_background_image {
-                height: 100%;
+                height: auto;
                 width: 100%
             }
     
@@ -387,13 +387,7 @@
                 background-color: #FFF;
                 color: transparent
             }
-    
-            .working {
-                background: url(data:image/gif;base64,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) no-repeat center;
-                height: 43px;
-                width: 100%;
-            }
-    
+
             @-webkit-keyframes fadeIn {
                 from {
                     opacity: 0
@@ -624,12 +618,51 @@
                 margin-right: 4px;
                 margin-left: 0;
                 padding: 6px 12px;
-                transition: background 1s ease 0s;
+                transition: background-color 1s ease 0s;
                 width: 100% !important;
                 height: 48px;
                 font-size: 100%;
             }
     
+            .buttons button:disabled,
+            button[disabled] {
+                background-color: #696969
+            }
+
+            #createAccount {
+                display: block;                
+                box-sizing: border-box;
+                outline: none;
+                -moz-border-radius: 4px;
+                -webkit-border-radius: 4px;
+                border-radius: 4px;
+                -moz-user-select: none;
+                background: rgb(86, 164, 255);
+                border: 1px solid #FFF;
+                color: #FFF;
+                cursor: pointer;
+                margin: 15px 0 0 0;
+                padding: 6px 12px;
+                transition: background-color 1s ease 0s;
+                width: 100% !important;
+                height: 48px;
+                font-size: 100%;
+                line-height: 34px;
+                text-align: center;
+            }
+
+            #createAccount:hover {
+                background: rgb(62, 128, 204);
+                border: 1px solid #FFF;
+                -moz-box-shadow: 0 0 0;
+                -webkit-box-shadow: 0 0 0;
+                box-shadow: 0 0 0
+            }
+    
+            #createAccount:focus {
+                outline: gold solid 1px
+            }
+
             .buttons button:disabled,
             button[disabled] {
                 background-color: #696969
@@ -654,7 +687,7 @@
             .button:focus {
                 outline: gold solid 1px
             }
-    
+
             .alert-modal,
             .verifying-modal {
                 display: none
@@ -673,18 +706,16 @@
                 #GoogleExchange::-moz-focus-inner,
                 #LinkedInExchange::-moz-focus-inner,
                 #MicrosoftAccountExchange::-moz-focus-inner {
-                    padding-left: 45px
+                    padding-left: 45px;
                 }
                 #AmazonExchange,
                 #FacebookExchange,
                 #GoogleExchange,
                 #LinkedInExchange,
                 #MicrosoftAccountExchange {
-                    padding-left: 0
+                    padding-left: 0;
                 }
             }
-        </style>
-        <style>
         </style>
     </head>
     
